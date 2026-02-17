@@ -1,108 +1,90 @@
-// --- MENU DATA ---
 const menuData = [
     {
         id: 1,
-        title: "Burrata & Fig",
-        category: "starters",
-        price: "$18",
-        desc: "Imported Puglian burrata, caramelized figs, toasted walnut crumble, and aged balsamic glaze.",
-        img: "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80",
-        tags: ["Vegetarian"]
+        title: "Pain de Meow",
+        category: "bakery",
+        price: "€14.00",
+        desc: "A rustic, slow-fermented sourdough loaf. Features pointed ears, a golden crust, and a judgmental expression. Served warm with butter.",
+        // REPLACE THIS URL with your image: "images/cat-loaf.jpg"
+        img: "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=600&q=80" 
     },
     {
         id: 2,
-        title: "Scallop Crudo",
-        category: "starters",
-        price: "$22",
-        desc: "Thinly sliced diver scallops, blood orange vinaigrette, fennel pollen, and micro cilantro.",
-        img: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=600&q=80",
-        tags: ["GF"]
+        title: "Sashimi Neko",
+        category: "mains",
+        price: "€22.00",
+        desc: "Fresh Atlantic salmon resting atop a bed of sushi rice, sculpted into a resting feline form. Too adorable to dip in soy sauce.",
+        // REPLACE THIS URL with your image: "images/cat-sushi.jpg"
+        img: "https://images.unsplash.com/photo-1517331156700-6c2468ec5268?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 3,
-        title: "Truffle Mushroom Risotto",
+        title: "The Purr-ger",
         category: "mains",
-        price: "$28",
-        desc: "Arborio rice, wild porcini mushrooms, shaved black truffle, and parmigiano reggiano.",
-        img: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80",
-        tags: ["Vegetarian", "GF"]
+        price: "€18.50",
+        desc: "A wagyu beef patty nestled between two brioche buns that look suspiciously like a tabby cat. Comes with a side of yarn fries.",
+        img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 4,
-        title: "Pan-Seared Duck Breast",
-        category: "mains",
-        price: "$34",
-        desc: "Crispy skin duck breast, parsnip purée, blackberry reduction, and roasted heirloom carrots.",
-        img: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80",
-        tags: ["GF"]
+        title: "Crosso-cat",
+        category: "bakery",
+        price: "€8.00",
+        desc: "French laminated dough, buttery and flaky, curled into a sleeping kitten position. Requires 3 days of naps to prepare.",
+        img: "https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 5,
-        title: "Herb Crusted Salmon",
-        category: "mains",
-        price: "$30",
-        desc: "Atlantic salmon, dill and lemon crust, served over a bed of warm quinoa salad.",
-        img: "https://images.unsplash.com/photo-1467003909585-2f8a7270028d?auto=format&fit=crop&w=600&q=80",
-        tags: ["GF"]
+        title: "Berry Tart Whiskers",
+        category: "sweets",
+        price: "€12.00",
+        desc: "A custard tart topped with seasonal berries arranged to resemble a surprised face. Sweet, tart, and deeply confused.",
+        img: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 6,
-        title: "Artisan Cheeseboard",
-        category: "starters",
-        price: "$24",
-        desc: "Selection of three local cheeses, honeycomb, house-made crackers, and seasonal fruit.",
-        img: "https://images.unsplash.com/photo-1631379578550-7038263db699?auto=format&fit=crop&w=600&q=80",
-        tags: ["Sharing"]
+        title: "Ramen Bath",
+        category: "mains",
+        price: "€24.00",
+        desc: "Tonkotsu broth with noodles and a soft-boiled egg, featuring a cat made of tofu soaking in the soup like a hot spring.",
+        img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 7,
-        title: "Lavender Gin Fizz",
-        category: "drinks",
-        price: "$14",
-        desc: "Botanical gin, house lavender syrup, egg white foam, and sparkling soda.",
-        img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
-        tags: ["Cocktail"]
+        title: "Banana Cat Split",
+        category: "sweets",
+        price: "€15.00",
+        desc: "The famous crying banana cat, but as a dessert. Caramelized banana, vanilla bean ice cream, and tears of chocolate syrup.",
+        img: "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 8,
-        title: "Dark Chocolate Tart",
+        title: "Matcha Kitten Latte",
         category: "sweets",
-        price: "$12",
-        desc: "70% cacao ganache, sea salt caramel layer, and whipped crème fraîche.",
-        img: "https://images.unsplash.com/photo-1549405679-679a9572be46?auto=format&fit=crop&w=600&q=80",
-        tags: ["Vegetarian"]
+        price: "€7.50",
+        desc: "Ceremonial grade matcha with 3D foam art of a kitten reaching for the rim of the cup. Almost impossible to drink without guilt.",
+        img: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
     }
 ];
 
-// --- RENDER LOGIC ---
+// --- RENDER FUNCTION (Same as before) ---
 const menuGrid = document.getElementById('menu-grid');
 const btns = document.querySelectorAll('.filter-btn');
 
 function renderMenu(category) {
     menuGrid.innerHTML = '';
+    const items = category === 'all' ? menuData : menuData.filter(item => item.category === category);
     
-    // Fade Out (visual trick - clearing HTML does it instantly, 
-    // but CSS animation handles the fade-in of new items)
-    
-    const items = category === 'all' 
-        ? menuData 
-        : menuData.filter(item => item.category === category);
-
     items.forEach(item => {
-        const tagsHtml = item.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
-        
         const card = `
             <article class="menu-item">
                 <div class="item-img-container">
                     <img src="${item.img}" alt="${item.title}" class="item-img">
                 </div>
                 <div class="item-details">
-                    <div class="item-header">
-                        <h3 class="item-title">${item.title}</h3>
-                        <span class="item-price">${item.price}</span>
-                    </div>
+                    <h3 class="item-title">${item.title}</h3>
+                    <span class="item-price">${item.price}</span>
                     <p class="item-desc">${item.desc}</p>
-                    <div class="tags">${tagsHtml}</div>
                 </div>
             </article>
         `;
@@ -110,27 +92,13 @@ function renderMenu(category) {
     });
 }
 
-// --- EVENT LISTENERS ---
+// --- FILTERING ---
 btns.forEach(btn => {
     btn.addEventListener('click', (e) => {
-        // UI Update
         btns.forEach(b => b.classList.remove('active'));
         e.target.classList.add('active');
-        
-        // Render
         renderMenu(e.target.dataset.category);
     });
 });
 
-// Initialize
 renderMenu('all');
-
-// Sticky Navbar Background on Scroll
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        nav.style.boxShadow = "0 2px 20px rgba(0,0,0,0.1)";
-    } else {
-        nav.style.boxShadow = "none";
-    }
-});
