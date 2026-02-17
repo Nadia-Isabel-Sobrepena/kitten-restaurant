@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <!-- Minimalist Navigation -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-brand">L'Algorithme.</div>
         <ul class="nav-links">
@@ -24,49 +24,55 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>The Illusion of Hunger.</h1>
-            <p class="subtitle">A multi-modal dining experience sourced ethically from the Latent Space.</p>
-            <div class="hero-meta">
-                <span>Est. 2024</span>
-                <span>•</span>
-                <span>Generative Gastronomy</span>
-            </div>
-        </div>
-    </header>
-
-    <!-- The "Manifesto" (Satire) -->
-    <section id="philosophy" class="philosophy">
-        <div class="container">
-            <span class="overline">The Process</span>
-            <h2>We don't cook. We prompt.</h2>
-            <div class="text-columns">
-                <p>Traditional cuisine is limited by physics. At <em>L'Algorithme</em>, we transcend biology. Our ingredients are not grown; they are hallucinated. We utilize a proprietary diffusion model to cultivate proteins that possess the visual comfort of a domestic feline with the textural integrity of a brioche.</p>
-                <p>Is it a cat? Is it a croissant? It is neither. It is data. And it is delicious.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- The Menu -->
-    <section id="menu" class="menu-section">
-        <div class="container">
-            <div class="menu-header">
-                <h2>Season 4: <br>Model Collapse</h2>
-                <div class="filter-bar">
-                    <button class="filter-btn active" data-category="all">Full Sequence</button>
-                    <button class="filter-btn" data-category="bakery">Carbohydrate</button>
-                    <button class="filter-btn" data-category="protein">Protein</button>
-                    <button class="filter-btn" data-category="sweet">Render</button>
+    <main>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content fade-in-up">
+                <h1>The Illusion of Hunger.</h1>
+                <p class="subtitle">A multi-modal dining experience sourced ethically from the Latent Space.</p>
+                <div class="hero-meta">
+                    <span>Est. 2024</span>
+                    <span class="divider">•</span>
+                    <span>Generative Gastronomy</span>
                 </div>
             </div>
+        </header>
 
-            <div class="menu-grid" id="menu-grid">
-                <!-- JS Injection -->
+        <!-- The Manifesto -->
+        <section id="philosophy" class="philosophy">
+            <div class="container">
+                <span class="overline">The Process</span>
+                <h2>We don't cook. We prompt.</h2>
+                <div class="text-columns">
+                    <p>Traditional cuisine is limited by physics. At <em>L'Algorithme</em>, we transcend biology. Our ingredients are not grown; they are hallucinated. We utilize a proprietary diffusion model to cultivate proteins that possess the visual comfort of a domestic feline with the textural integrity of a brioche.</p>
+                    <p>Is it a cat? Is it a croissant? It is neither. It is data. And it is delicious.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- The Menu -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <div class="menu-header">
+                    <h2>Season 4: <br>Model Collapse</h2>
+                    
+                    <!-- Scrollable Filter Bar -->
+                    <div class="filter-wrapper">
+                        <div class="filter-bar">
+                            <button class="filter-btn active" data-category="all">Full Sequence</button>
+                            <button class="filter-btn" data-category="bakery">Carbohydrate</button>
+                            <button class="filter-btn" data-category="mains">Protein</button>
+                            <button class="filter-btn" data-category="sweets">Render</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-grid" id="menu-grid">
+                    <!-- JS will inject items here -->
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer id="reservations">
