@@ -5,7 +5,6 @@ const menuData = [
         category: "bakery",
         price: "€14.00",
         desc: "A rustic, slow-fermented sourdough loaf. Features pointed ears, a golden crust, and a judgmental expression. Served warm with butter.",
-        // REPLACE THIS URL with your image: "images/cat-loaf.jpg"
         img: "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=600&q=80" 
     },
     {
@@ -14,7 +13,6 @@ const menuData = [
         category: "mains",
         price: "€22.00",
         desc: "Fresh Atlantic salmon resting atop a bed of sushi rice, sculpted into a resting feline form. Too adorable to dip in soy sauce.",
-        // REPLACE THIS URL with your image: "images/cat-sushi.jpg"
         img: "https://images.unsplash.com/photo-1517331156700-6c2468ec5268?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -67,38 +65,49 @@ const menuData = [
     }
 ];
 
-// --- RENDER FUNCTION (Same as before) ---
+// --- RENDER FUNCTION ---
 const menuGrid = document.getElementById('menu-grid');
 const btns = document.querySelectorAll('.filter-btn');
 
 function renderMenu(category) {
+    // 1. Clear the grid
     menuGrid.innerHTML = '';
+    
+    // 2. Filter the items
     const items = category === 'all' ? menuData : menuData.filter(item => item.category === category);
     
+    // 3. Generate HTML
     items.forEach(item => {
+        // IMPORTANT: The classes here (img-wrapper, item-meta) MATCH the CSS file now.
         const card = `
             <article class="menu-item">
-                <div class="item-img-container">
+                <div class="img-wrapper">
                     <img src="${item.img}" alt="${item.title}" class="item-img">
                 </div>
-                <div class="item-details">
-                    <h3 class="item-title">${item.title}</h3>
+                
+                <div class="item-meta">
+                    <span class="item-title">${item.title}</span>
                     <span class="item-price">${item.price}</span>
-                    <p class="item-desc">${item.desc}</p>
                 </div>
+                
+                <p class="item-desc">${item.desc}</p>
             </article>
         `;
         menuGrid.innerHTML += card;
     });
 }
 
-// --- FILTERING ---
+// --- FILTER BUTTON LISTENERS ---
 btns.forEach(btn => {
     btn.addEventListener('click', (e) => {
+        // Remove active class from all
         btns.forEach(b => b.classList.remove('active'));
+        // Add to clicked
         e.target.classList.add('active');
+        // Render
         renderMenu(e.target.dataset.category);
     });
 });
 
+// Initial Render
 renderMenu('all');
