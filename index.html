@@ -3,91 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Chat Gourmet | Fine Feline Dining</title>
+    <title>L'Algorithme | Modern Dining</title>
     
-    <!-- Fonts: Cinzel (Super Fancy) & Lato (Clean) -->
+    <!-- Fonts: Prata (Luxury Serif) & Inter (Modern Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Prata&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-brand">Le Chat Gourmet</div>
+    <!-- Minimalist Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">L'Algorithme.</div>
         <ul class="nav-links">
-            <li><a href="#hero">L'Accueil</a></li>
-            <li><a href="#about">The Philosophy</a></li>
-            <li><a href="#menu-section" class="active-link">Le Menu</a></li>
-            <li><a href="#reserve" class="btn-reserve">Book Table</a></li>
+            <li><a href="#philosophy">Manifesto</a></li>
+            <li><a href="#menu">Tasting Menu</a></li>
+            <li><a href="#reservations">Waitlist</a></li>
         </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
     </nav>
 
     <!-- Hero Section -->
-    <header id="hero" class="hero-section">
-        <div class="hero-overlay"></div>
+    <header class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Culinary Perfection.<br>Literally Cats.</h1>
-            <p class="hero-subtitle">Where artificial intelligence meets artisanal appetite.</p>
-            <a href="#menu-section" class="btn-primary">View The Creations</a>
+            <h1>The Illusion of Hunger.</h1>
+            <p class="subtitle">A multi-modal dining experience sourced ethically from the Latent Space.</p>
+            <div class="hero-meta">
+                <span>Est. 2024</span>
+                <span>•</span>
+                <span>Generative Gastronomy</span>
+            </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- The "Manifesto" (Satire) -->
+    <section id="philosophy" class="philosophy">
         <div class="container">
-            <span class="section-overline">Our Vision</span>
-            <h2>"If it fits, I sits."</h2>
-            <p>At Le Chat Gourmet, we ask the difficult questions. Is it a pastry? Is it a mammal? Does it matter? Our chefs work tirelessly with the algorithm to bring you dishes that are too cute to eat, yet too confusing to ignore.</p>
+            <span class="overline">The Process</span>
+            <h2>We don't cook. We prompt.</h2>
+            <div class="text-columns">
+                <p>Traditional cuisine is limited by physics. At <em>L'Algorithme</em>, we transcend biology. Our ingredients are not grown; they are hallucinated. We utilize a proprietary diffusion model to cultivate proteins that possess the visual comfort of a domestic feline with the textural integrity of a brioche.</p>
+                <p>Is it a cat? Is it a croissant? It is neither. It is data. And it is delicious.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Menu Section -->
-    <section id="menu-section" class="menu-section">
+    <!-- The Menu -->
+    <section id="menu" class="menu-section">
         <div class="container">
             <div class="menu-header">
-                <h2>Chef's Selection</h2>
-                <p class="menu-note">Warning: Dishes may judge you while you eat them.</p>
-            </div>
-
-            <div class="filter-container">
-                <button class="filter-btn active" data-category="all">Tout</button>
-                <button class="filter-btn" data-category="bakery">Boulangerie</button>
-                <button class="filter-btn" data-category="mains">Entrées</button>
-                <button class="filter-btn" data-category="sweets">Dessert</button>
+                <h2>Season 4: <br>Model Collapse</h2>
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all">Full Sequence</button>
+                    <button class="filter-btn" data-category="bakery">Carbohydrate</button>
+                    <button class="filter-btn" data-category="protein">Protein</button>
+                    <button class="filter-btn" data-category="sweet">Render</button>
+                </div>
             </div>
 
             <div class="menu-grid" id="menu-grid">
-                <!-- JS will put the cats here -->
+                <!-- JS Injection -->
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="reserve">
-        <div class="footer-content">
-            <div class="footer-col">
-                <h3>Le Chat Gourmet</h3>
-                <p>123 Internet Lane, The Cloud</p>
-                <div class="socials">
-                    <span>IG</span>
-                    <span>TikTok</span>
-                </div>
+    <footer id="reservations">
+        <div class="footer-inner">
+            <div class="reservation-box">
+                <h3>Secure Your Iteration</h3>
+                <p>Reservations are currently released 60 days in advance via blockchain lottery.</p>
+                <button class="btn-reserve">Join The Queue</button>
             </div>
-            <div class="footer-col">
-                <h3>Opening Hours</h3>
-                <p>Mon-Sun: Whenever the zoomies stop</p>
+            <div class="fine-print">
+                <p>L'Algorithme &copy; 2024.</p>
+                <p>Warning: Consumption of non-Euclidean geometry may cause dizziness.</p>
             </div>
-        </div>
-        <div class="copyright">
-            © 2024 Le Chat Gourmet. No actual cats were baked in the making of this site.
         </div>
     </footer>
 
