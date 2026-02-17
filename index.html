@@ -3,51 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Cozy Crumb | Menu</title>
+    <title>Olive & Honey | Bistro</title>
     
-    <!-- Google Fonts: Playfair (Elegant) & Quicksand (Cute/Round) -->
+    <!-- Google Fonts: Cormorant Garamond (Luxury) & Montserrat (Clean) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <h1 class="brand-name">The Cozy Crumb</h1>
-            <p class="tagline">Est. 2024 • Organic & Wholesome</p>
-        </div>
-    </header>
-
-    <!-- Navigation / Filter Bar -->
-    <nav class="filter-container">
-        <div class="button-group">
-            <button class="filter-btn active" data-category="all">All</button>
-            <button class="filter-btn" data-category="breakfast">Breakfast</button>
-            <button class="filter-btn" data-category="lunch">Lunch</button>
-            <button class="filter-btn" data-category="drinks">Sips</button>
-            <button class="filter-btn" data-category="sweets">Sweets</button>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">Olive & Honey</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu-section" class="active-link">Menu</a></li>
+            <li><a href="#reserve" class="btn-reserve">Book a Table</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </nav>
 
-    <!-- Menu Grid Section -->
-    <main>
-        <div class="menu-container" id="menu-grid">
-            <!-- JavaScript will inject menu items here -->
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Taste the Season</h1>
+            <p class="hero-subtitle">Modern European dining with a wholesome touch.</p>
+            <a href="#menu-section" class="btn-primary">View Menu</a>
         </div>
-    </main>
+    </header>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 The Cozy Crumb.</p>
-        <p>123 Pastel Lane, Sweet City • (555) 123-4567</p>
+    <!-- Brief About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <span class="section-overline">Our Philosophy</span>
+            <h2>Simple ingredients, elevated.</h2>
+            <p>Situated in the heart of the city, Olive & Honey brings you organic flavors sourced directly from local farmers. We believe food should be beautiful, delicious, and kind to the earth.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu-section" class="menu-section">
+        <div class="container">
+            <div class="menu-header">
+                <h2>The Menu</h2>
+                <p class="menu-note">Updated daily based on market availability.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="starters">Starters</button>
+                <button class="filter-btn" data-category="mains">Mains</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button>
+                <button class="filter-btn" data-category="sweets">Dessert</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menu-grid">
+                <!-- JS populates this -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation / Footer -->
+    <footer id="reserve">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Olive & Honey</h3>
+                <p>123 Culinary Ave, Metro City</p>
+                <p>(555) 987-6543</p>
+                <div class="socials">
+                    <span>IG</span>
+                    <span>FB</span>
+                    <span>TW</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Hours</h3>
+                <p>Mon-Fri: 11am - 10pm</p>
+                <p>Sat-Sun: 9am - 11pm</p>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Your email..." class="footer-input">
+                <button class="btn-footer">Subscribe</button>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 Olive & Honey Bistro. All rights reserved.
+        </div>
     </footer>
 
-    <!-- Link to your JS file -->
     <script src="script.js"></script>
 </body>
 </html>
