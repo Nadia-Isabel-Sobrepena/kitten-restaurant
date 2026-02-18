@@ -4,7 +4,9 @@ const menuData = [
         title: "Pain de Meow",
         category: "bakery",
         price: "€14.00",
-        desc: "A rustic, slow-fermented sourdough loaf. Features pointed ears, a golden crust, and a judgmental expression. Served warm with butter.",
+        // Old: Rustic sourdough...
+        // New: Aloof personality.
+        desc: "Stoic. Emotionally unavailable. Fermented in isolation for 48 hours to develop a complex superiority complex. Best paired with silence and rejection.",
         img: "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=600&q=80" 
     },
     {
@@ -12,7 +14,9 @@ const menuData = [
         title: "Sashimi Neko",
         category: "mains",
         price: "€22.00",
-        desc: "Fresh Atlantic salmon resting atop a bed of sushi rice, sculpted into a resting feline form. Too adorable to dip in soy sauce.",
+        // Old: Fresh salmon...
+        // New: Lazy/Liquid personality.
+        desc: "Extremely lethargic. This salmon has given up on life and accepted its fate as rice. It enjoys sunbeams, doing absolutely nothing, and judging your chopstick technique.",
         img: "https://images.unsplash.com/photo-1517331156700-6c2468ec5268?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -20,7 +24,9 @@ const menuData = [
         title: "The Purr-ger",
         category: "mains",
         price: "€18.50",
-        desc: "A wagyu beef patty nestled between two brioche buns that look suspiciously like a tabby cat. Comes with a side of yarn fries.",
+        // Old: Wagyu patty...
+        // New: Chaotic/Hungry personality.
+        desc: "A chaotic energy. Heavily motivated by treats. The wagyu patty creates a gravitational pull of neediness. Will knock your drink over if ignored for more than 3 seconds.",
         img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -28,7 +34,9 @@ const menuData = [
         title: "Crosso-cat",
         category: "bakery",
         price: "€8.00",
-        desc: "French laminated dough, buttery and flaky, curled into a sleeping kitten position. Requires 3 days of naps to prepare.",
+        // Old: Laminated dough...
+        // New: Sensitive/Fragile personality.
+        desc: "Flaky and sensitive. Requires constant verbal validation or it will crumble. The butter layers represent its many walls against intimacy. Handle with extreme empathy.",
         img: "https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -36,7 +44,9 @@ const menuData = [
         title: "Berry Tart Whiskers",
         category: "sweets",
         price: "€12.00",
-        desc: "A custard tart topped with seasonal berries arranged to resemble a surprised face. Sweet, tart, and deeply confused.",
+        // Old: Custard tart...
+        // New: Confused/Orange Cat Energy.
+        desc: "Deeply confused by its own existence. It does not know why it is a tart. It does not know why it is sweet. It has one brain cell, and it is currently buffering.",
         img: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -44,7 +54,9 @@ const menuData = [
         title: "Ramen Bath",
         category: "mains",
         price: "€24.00",
-        desc: "Tonkotsu broth with noodles and a soft-boiled egg, featuring a cat made of tofu soaking in the soup like a hot spring.",
+        // Old: Tonkotsu broth...
+        // New: Introverted/Cozy.
+        desc: "Immersed in a hot broth of comfort, yet retaining a core of tofu-based indifference. It refuses to leave the bowl. Do not make eye contact.",
         img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -52,7 +64,9 @@ const menuData = [
         title: "Banana Cat Split",
         category: "sweets",
         price: "€15.00",
-        desc: "The famous crying banana cat, but as a dessert. Caramelized banana, vanilla bean ice cream, and tears of chocolate syrup.",
+        // Old: Caramelized banana...
+        // New: Melodramatic/Sad.
+        desc: "Melancholy. Tragic. The caramelized banana is weeping chocolate tears over a past life it cannot remember. Tastes like nostalgia and poor attachment styles.",
         img: "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=600&q=80"
     },
     {
@@ -60,7 +74,9 @@ const menuData = [
         title: "Matcha Kitten Latte",
         category: "sweets",
         price: "€7.50",
-        desc: "Ceremonial grade matcha with 3D foam art of a kitten reaching for the rim of the cup. Almost impossible to drink without guilt.",
+        // Old: Ceremonial grade...
+        // New: Hyperactive/Zoomies.
+        desc: "A 3D foam construct with too much energy. It vibrates with caffeine and unchecked aggression. It is planning to attack your upper lip. Proceed with caution.",
         img: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
     }
 ];
@@ -70,15 +86,11 @@ const menuGrid = document.getElementById('menu-grid');
 const btns = document.querySelectorAll('.filter-btn');
 
 function renderMenu(category) {
-    // 1. Clear the grid
     menuGrid.innerHTML = '';
-    
-    // 2. Filter the items
     const items = category === 'all' ? menuData : menuData.filter(item => item.category === category);
     
-    // 3. Generate HTML
     items.forEach(item => {
-        // IMPORTANT: The classes here (img-wrapper, item-meta) MATCH the CSS file now.
+        // We match the CSS classes perfectly here
         const card = `
             <article class="menu-item">
                 <div class="img-wrapper">
@@ -100,11 +112,8 @@ function renderMenu(category) {
 // --- FILTER BUTTON LISTENERS ---
 btns.forEach(btn => {
     btn.addEventListener('click', (e) => {
-        // Remove active class from all
         btns.forEach(b => b.classList.remove('active'));
-        // Add to clicked
         e.target.classList.add('active');
-        // Render
         renderMenu(e.target.dataset.category);
     });
 });
