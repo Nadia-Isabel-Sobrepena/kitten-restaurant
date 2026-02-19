@@ -32,7 +32,7 @@ const menuData = [
     category: "starters",
     price: "€16.00",
     desc: "A chilled pistachio velouté that arrived to the kitchen already suspicious. It does not trust the spoon. It does not trust you. It has been cross-referencing your table reservation against an internal list of perceived threats since 7 PM and will not be elaborating further.",
-    img: "https://i.pinimg.com/736x/91/59/6c/91596c995dfd2b7dc660ca54cf512087.jpg"
+    img: "https://i.pinimg.com/1200x/d7/f7/5e/d7f75e6ad06678b76483a7cb27cc5bd4.jpg"
 },
     {
         id: 11,
