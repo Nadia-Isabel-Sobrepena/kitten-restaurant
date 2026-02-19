@@ -37,7 +37,7 @@ const menuData = [
         // Old: Laminated dough...
         // New: Sensitive/Fragile personality.
         desc: "Flaky and sensitive. Requires constant verbal validation or it will crumble. The butter layers represent its many walls against intimacy. Handle with extreme empathy.",
-        img: "https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&w=600&q=80"
+        img: "https://i.pinimg.com/736x/e7/8f/10/e78f10106076509a757687a1e082b038.jpg"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const menuData = [
         // Old: Custard tart...
         // New: Confused/Orange Cat Energy.
         desc: "Deeply confused by its own existence. It does not know why it is a tart. It does not know why it is sweet. It has one brain cell, and it is currently buffering.",
-        img: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
+        img: "https://i.pinimg.com/1200x/bb/33/c8/bb33c8fb5270d8076f09662a3ce5ef79.jpg"
     },
     {
         id: 6,
