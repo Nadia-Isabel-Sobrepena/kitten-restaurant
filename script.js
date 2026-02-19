@@ -37,7 +37,7 @@ const menuData = [
         // Old: Laminated dough...
         // New: Sensitive/Fragile personality.
         desc: "Flaky and sensitive. Requires constant verbal validation or it will crumble. The butter layers represent its many walls against intimacy. Handle with extreme empathy.",
-        img: "https://i.pinimg.com/736x/e7/8f/10/e78f10106076509a757687a1e082b038.jpg"
+        img: "https://i.pinimg.com/736x/4b/e0/28/4be028b7f9f207bbb5ebee7e68a023e6.jpg"
     },
     {
         id: 5,
