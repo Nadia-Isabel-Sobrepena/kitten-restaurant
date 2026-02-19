@@ -40,7 +40,7 @@ const menuData = [
         category: "starters",
         price: "€18.00",
         desc: "A slow-stare bisque, developed by a contributor who maintained unbroken eye contact for nine minutes during the initial assessment. Rich, unsettling, and impeccably seasoned.",
-        img: "https://i.pinimg.com/736x/1f/65/c4/1f65c44e4fed42b4e6263b220361cbd4.jpg"
+        img: "https://i.pinimg.com/736x/d6/d3/bf/d6d3bf2f6891ff80bc4d00015e8d9fc6.jpg"
     },
 
     // ── MAINS ──
@@ -74,7 +74,7 @@ const menuData = [
         category: "mains",
         price: "€26.00",
         desc: "A slow-cooked preparation from a contributor who simply sat in the pan for forty minutes without explanation. The result is extraordinarily tender and deeply perplexing.",
-        img: "https://www.designboom.com/twitterimages/uploads/2014/06/sushi-cats-tange-nakimushi-peanuts-designboom-12.jpg"
+        img: "https://i.pinimg.com/1200x/fd/15/f0/fd15f033242535d5bfd7edd717036499.jpg"
     },
 
     // ── DESSERT & CAFÉ ──
