@@ -103,13 +103,13 @@ const menuData = [
         img: "https://i.pinimg.com/736x/1f/65/c4/1f65c44e4fed42b4e6263b220361cbd4.jpg"
     },
     {
-        id: 13,
-        title: "Madeleine du Vide",
-        category: "sweets",
-        price: "€9.00",
-        desc: "Shell-shaped, buttery, and existentially adrift. This madeleine was developed during a particularly vacant staring period and retains a faint quality of absolute absence.",
-        img: "https://i.pinimg.com/1200x/bb/33/c8/bb33c8fb5270d8076f09662a3ce5ef79.jpg"
-    },
+    id: 13,
+    title: "Tirami-sù",
+    category: "sweets",
+    price: "€11.00",
+    desc: "Layers of espresso-soaked sponge and mascarpone developed by a contributor who refused to get out of bed for the entire month of November. Its name means 'lift me up.' It will not lift you up. It will, however, sit with you.",
+    img: "https://i.pinimg.com/1200x/c0/bd/92/c0bd92469daa62cd488bfee8da07e743.jpg"
+},
 ];
 
 // ── CATEGORY DISPLAY LABELS ──
