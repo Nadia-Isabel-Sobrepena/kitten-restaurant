@@ -57,7 +57,7 @@ const menuData = [
         // Old: Ramen/Introverted...
         // New: Repressed/Defensive personality.
         desc: "Tightly swaddled. Emotionally repressed. This dish has built a thick flour tortilla wall around its heart to avoid vulnerability. It is spicy, defensive, and will bite if unwrapped.",
-        img: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80"
+        img: "https://i.pinimg.com/1200x/71/b2/bb/71b2bb13f4948f314cc05f15e759df46.jpg"
     },
     {
         id: 7,
