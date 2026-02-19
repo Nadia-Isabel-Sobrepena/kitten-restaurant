@@ -50,7 +50,7 @@ const menuData = [
         category: "mains",
         price: "€22.00",
         desc: "Extremely lethargic. This salmon has given up on life and accepted its fate as rice. It enjoys sunbeams, doing absolutely nothing, and judging your chopstick technique.",
-        img: "https://www.designboom.com/twitterimages/uploads/2014/06/sushi-cats-tange-nakimushi-peanuts-designboom-12.jpg"
+        img: "https://i.pinimg.com/736x/96/8c/37/968c37306a2daa0d505e854378678f2f.jpg"
     },
     {
         id: 3,
