@@ -7,7 +7,7 @@ const menuData = [
         // Old: Rustic sourdough...
         // New: Aloof personality.
         desc: "Stoic. Emotionally unavailable. Fermented in isolation for 48 hours to develop a complex superiority complex. Best paired with silence and rejection.",
-        img: "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?auto=format&fit=crop&w=600&q=80" 
+        img: "https://hisopet.com/cdn/shop/products/product-image-1847387267.jpg?v=1631955378https://external-preview.redd.it/BQy9ADKvbU5nECv4OLuvS-iUghwGYAV_cgeb0CuTvFI.jpg?width=1080&crop=smart&auto=webp&s=2b33abe0e2a42afba40b631f50292d0e887340c0https://ih1.redbubble.net/image.597738663.8102/st,small,507x507-pad,600x600,f8f8f8.jpg" 
     },
     {
         id: 2,
