@@ -6,7 +6,7 @@ const menuData = [
         category: "bakery",
         price: "€14.00",
         desc: "Stoic. Emotionally unavailable. Fermented in isolation for 48 hours to develop a complex superiority complex. Best paired with silence and rejection.",
-        img: "https://i.pinimg.com/736x/5b/69/76/5b69764c6ca602cded2a10ba9f0db2f3.jpg"
+        img: "https://i.pinimg.com/736x/dd/3b/61/dd3b617e941b8218949860ba9358602c.jpg"
     },
     {
         id: 4,
@@ -22,7 +22,7 @@ const menuData = [
         category: "bakery",
         price: "€11.00",
         desc: "Nocturnal. This loaf refuses to be baked before midnight and has strong opinions about window sills. Enriched with butter it will never acknowledge needing.",
-        img: "https://i.pinimg.com/736x/5b/69/76/5b69764c6ca602cded2a10ba9f0db2f3.jpg"
+        img: "https://i.pinimg.com/736x/da/fa/c3/dafac3d8016015ac12b36d85c7eb08ae.jpg"
     },
 
     // ── STARTERS ──
