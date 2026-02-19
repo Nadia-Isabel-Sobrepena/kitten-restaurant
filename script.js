@@ -51,13 +51,13 @@ const menuData = [
     },
     {
         id: 6,
-        title: "Ramen Bath",
+        title: "The Great Purrito",
         category: "mains",
-        price: "€24.00",
-        // Old: Tonkotsu broth...
-        // New: Introverted/Cozy.
-        desc: "Immersed in a hot broth of comfort, yet retaining a core of tofu-based indifference. It refuses to leave the bowl. Do not make eye contact.",
-        img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
+        price: "€19.50",
+        // Old: Ramen/Introverted...
+        // New: Repressed/Defensive personality.
+        desc: "Tightly swaddled. Emotionally repressed. This dish has built a thick flour tortilla wall around its heart to avoid vulnerability. It is spicy, defensive, and will bite if unwrapped.",
+        img: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 7,
