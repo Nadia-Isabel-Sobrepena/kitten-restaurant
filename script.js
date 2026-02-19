@@ -59,15 +59,15 @@ const menuData = [
         desc: "Tightly swaddled. Emotionally repressed. This dish has built a thick flour tortilla wall around its heart to avoid vulnerability. It is spicy, defensive, and will bite if unwrapped.",
         img: "https://i.pinimg.com/1200x/71/b2/bb/71b2bb13f4948f314cc05f15e759df46.jpg"
     },
-    {
+   {
         id: 7,
-        title: "Meow Cream",
+        title: "Scoop of Indifference",
         category: "sweets",
         price: "€14.50",
-        // Old: 3AM Zoomies...
-        // New: Head empty, just vibes.
-        desc: "A scoop of tangerine sorbet that is currently buffering. It has zero thoughts behind its eyes. It doesn't know where it is. It just fell off the spoon for no reason and is purring about it.",
-        img: "https://images.unsplash.com/photo-1553531580-652231dae097?auto=format&fit=crop&w=600&q=80"
+        // Old: Meow Cream...
+        // New: A normal vanilla scoop that ignores you.
+        desc: "A classic vanilla bean sphere that simply does not care. You can call its name, wave toys at it, or plead for attention—it remains unmoved. It is the culinary equivalent of being left on 'read'.",
+        img: "https://i.pinimg.com/736x/91/59/6c/91596c995dfd2b7dc660ca54cf512087.jpg"
     },
     {
         id: 8,
