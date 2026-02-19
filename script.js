@@ -27,7 +27,7 @@ const menuData = [
         // Old: Wagyu patty...
         // New: Chaotic/Hungry personality.
         desc: "A chaotic energy. Heavily motivated by treats. The wagyu patty creates a gravitational pull of neediness. Will knock your drink over if ignored for more than 3 seconds.",
-        img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+        img: "https://i.pinimg.com/736x/7e/9b/81/7e9b81180613a52a4b41c3a4e709cc88.jpg"
     },
     {
         id: 4,
