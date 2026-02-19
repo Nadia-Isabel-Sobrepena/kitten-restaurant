@@ -71,13 +71,13 @@ const menuData = [
     },
     {
         id: 8,
-        title: "Matcha Kitten Latte",
+        title: "Standard Cat-puccino",
         category: "sweets",
-        price: "€7.50",
-        // Old: Ceremonial grade...
-        // New: Hyperactive/Zoomies.
-        desc: "A 3D foam construct with too much energy. It vibrates with caffeine and unchecked aggression. It is planning to attack your upper lip. Proceed with caution.",
-        img: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
+        price: "€6.50",
+        // Old: Chaos Latte...
+        // New: Grumpy morning personality.
+        desc: "A dark roast with a severe attitude problem. It refuses to be perceived before 10 AM. It judges your outfit with a bitter, caffeinated stare and absolutely zero remorse.",
+        img: "https://i.pinimg.com/736x/1f/65/c4/1f65c44e4fed42b4e6263b220361cbd4.jpg"
     }
 ];
 
