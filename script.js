@@ -17,7 +17,7 @@ const menuData = [
         // Old: Fresh salmon...
         // New: Lazy/Liquid personality.
         desc: "Extremely lethargic. This salmon has given up on life and accepted its fate as rice. It enjoys sunbeams, doing absolutely nothing, and judging your chopstick technique.",
-        img: "https://images.unsplash.com/photo-1517331156700-6c2468ec5268?auto=format&fit=crop&w=600&q=80"
+        img: "https://www.designboom.com/twitterimages/uploads/2014/06/sushi-cats-tange-nakimushi-peanuts-designboom-12.jpg"
     },
     {
         id: 3,
