@@ -3,92 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Algorithme | Modern Dining</title>
-    
-    <!-- Fonts: Prata (Luxury Serif) & Inter (Modern Sans) -->
+    <title>Félin & Fourchette | Fine Dining</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Prata&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-brand">L'Algorithme.</div>
-        <ul class="nav-links">
-            <li><a href="#philosophy">Manifesto</a></li>
-            <li><a href="#menu">Tasting Menu</a></li>
-            <li><a href="#reservations">Waitlist</a></li>
-        </ul>
-    </nav>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-brand">Félin & Fourchette</div>
+    <ul class="nav-links">
+        <li><a href="#philosophy">Our Approach</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservations" class="nav-cta">Reserve</a></li>
+    </ul>
+</nav>
 
-    <main>
-        <!-- Hero Section -->
-        <header class="hero">
-            <div class="hero-content fade-in-up">
-                <h1>The Illusion of Hunger.</h1>
-                <p class="subtitle">A multi-modal dining experience sourced ethically from the Latent Space.</p>
-                <div class="hero-meta">
-                    <span>Est. 2024</span>
-                    <span class="divider">•</span>
-                    <span>Generative Gastronomy</span>
+<main>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-eyebrow">Established 2019 · Paris, 6e Arrondissement</span>
+            <h1>Fine Dining for<br>the <em>Discerning</em> Guest.</h1>
+            <p class="hero-sub">A sophisticated tasting menu designed around the complex behavioral profiles of our feline culinary team.</p>
+            <div class="hero-divider">Seasonal Menu · Chef's Selection · Prix Fixe Available</div>
+        </div>
+    </header>
+
+    <!-- Credentials Bar -->
+    <div class="credentials">
+        <span><strong>2 Michelin Stars</strong> &nbsp;·&nbsp; Awarded 2022 & 2023</span>
+        <span><strong>World's 50 Best</strong> &nbsp;·&nbsp; No. 34, 2024</span>
+        <span>Featured in <strong>Le Monde</strong>, <strong>The New Yorker</strong> & <strong>Bon Appétit</strong></span>
+        <span>Open Tuesday – Saturday &nbsp;·&nbsp; <strong>19:00 – 23:30</strong></span>
+    </div>
+
+    <!-- Philosophy -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <div class="philosophy-inner">
+                <div>
+                    <span class="overline">Our Approach</span>
+                    <h2>Temperament Is an Ingredient.</h2>
+                </div>
+                <div class="philosophy-body">
+                    <p>At Félin & Fourchette, we operate on a straightforward premise: the psychological disposition of a dish is as integral to its composition as the ingredients themselves. This is not a gimmick. It is the result of fifteen years of longitudinal research into feline behavioral profiles and their natural expression through classical cooking technique.</p>
+                    <p>Our kitchen is staffed by a rotating selection of cats, each rigorously assessed upon onboarding for emotional range, stress response, and interpersonal availability. These profiles directly inform the menu. A dish developed in collaboration with a stoic, avoidant subject will ferment longer, rest in silence, and resist sweetness. A chaotic, treat-motivated contributor produces work that is loud, immediate, and structurally unpredictable.</p>
+                    <p>We do not anthropomorphize. We document, measure, and plate accordingly. Every item on our menu carries a behavioral notation reviewed quarterly by our in-house animal behaviorist, Dr. Sylvie Marchand, in partnership with our executive chef. The result is a dining experience that is, above all, honest.</p>
                 </div>
             </div>
-        </header>
 
-        <!-- The Manifesto -->
-        <section id="philosophy" class="philosophy">
-            <div class="container">
-                <span class="overline">The Process</span>
-                <h2>We don't cook. We prompt.</h2>
-                <div class="text-columns">
-                    <p>Traditional cuisine is limited by physics. At <em>L'Algorithme</em>, we transcend biology. Our ingredients are not grown; they are hallucinated. We utilize a proprietary diffusion model to cultivate proteins that possess the visual comfort of a domestic feline with the textural integrity of a brioche.</p>
-                    <p>Is it a cat? Is it a croissant? It is neither. It is data. And it is delicious.</p>
+            <div class="philosophy-pillars">
+                <div class="pillar">
+                    <span class="pillar-num">01 —</span>
+                    <h4>Behavioral Sourcing</h4>
+                    <p>All contributors undergo a standardized six-week temperament assessment before any kitchen collaboration begins.</p>
                 </div>
-            </div>
-        </section>
-
-        <!-- The Menu -->
-        <section id="menu" class="menu-section">
-            <div class="container">
-                <div class="menu-header">
-                    <h2>Season 4: <br>Model Collapse</h2>
-                    
-                    <!-- Scrollable Filter Bar -->
-                    <div class="filter-wrapper">
-                        <div class="filter-bar">
-                            <button class="filter-btn active" data-category="all">Full Sequence</button>
-                            <button class="filter-btn" data-category="bakery">Carbohydrate</button>
-                            <button class="filter-btn" data-category="mains">Protein</button>
-                            <button class="filter-btn" data-category="sweets">Render</button>
-                        </div>
-                    </div>
+                <div class="pillar">
+                    <span class="pillar-num">02 —</span>
+                    <h4>Seasonal Rotation</h4>
+                    <p>Menus change with each emotional quarter. Lethargy peaks in winter; instability is documented most reliably in spring.</p>
                 </div>
-
-                <div class="menu-grid" id="menu-grid">
-                    <!-- JS will inject items here -->
+                <div class="pillar">
+                    <span class="pillar-num">03 —</span>
+                    <h4>Transparent Notation</h4>
+                    <p>Each menu item includes a behavioral summary. Guests are encouraged to read before ordering, particularly regarding avoidant profiles.</p>
                 </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer id="reservations">
-        <div class="footer-inner">
-            <div class="reservation-box">
-                <h3>Secure Your Iteration</h3>
-                <p>Reservations are currently released 60 days in advance via blockchain lottery.</p>
-                <button class="btn-reserve">Join The Queue</button>
-            </div>
-            <div class="fine-print">
-                <p>L'Algorithme &copy; 2024.</p>
-                <p>Warning: Consumption of non-Euclidean geometry may cause dizziness.</p>
             </div>
         </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- Menu -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="menu-header">
+                <div>
+                    <span class="menu-season">Autumn / Winter 2024</span>
+                    <h2>Current Selection</h2>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-category="all">All Courses</button>
+                        <button class="filter-btn" data-category="bakery">Bread & Pastry</button>
+                        <button class="filter-btn" data-category="starters">Starters</button>
+                        <button class="filter-btn" data-category="mains">Mains</button>
+                        <button class="filter-btn" data-category="sweets">Dessert & Café</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-grid" id="menu-grid">
+                <!-- JS will inject items here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tasting Menu Callout -->
+    <div class="callout">
+        <h3>The Chef's Behavioural<br>Tasting Menu</h3>
+        <p>Seven courses. Seven profiles. One sitting per evening. Available Friday and Saturday only, with forty-eight hours' notice.</p>
+        <div class="callout-tags">
+            <span class="callout-tag">€195 per guest</span>
+            <span class="callout-tag">Wine pairing available</span>
+            <span class="callout-tag">Dietary accommodations on request</span>
+            <span class="callout-tag">Minimum 2 guests</span>
+        </div>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer id="reservations">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand">Félin & Fourchette</div>
+                <p class="footer-tagline">A Michelin-starred dining experience grounded in the serious study of feline temperament and classical French technique.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Visit</h5>
+                <ul>
+                    <li>14 Rue du Cherche-Midi</li>
+                    <li>75006 Paris, France</li>
+                    <li style="margin-top:0.75rem;">Tuesday – Saturday</li>
+                    <li>19:00 – 23:30</li>
+                    <li style="margin-top:0.75rem;">+33 1 42 22 00 00</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Information</h5>
+                <ul>
+                    <li>Reservation Policy</li>
+                    <li>Dress Code</li>
+                    <li>Dietary Requirements</li>
+                    <li>Private Dining</li>
+                    <li>Press & Enquiries</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="reservation-box">
+            <h3>Reserve a Table</h3>
+            <p>Reservations open 60 days in advance. We recommend booking early, particularly for weekend sittings and the tasting menu.</p>
+            <button class="btn-reserve">Check Availability</button>
+        </div>
+
+        <div class="fine-print">
+            <span>Félin & Fourchette © 2024. All rights reserved.</span>
+            <span>We kindly ask that guests refrain from unsolicited eye contact with the kitchen staff.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
