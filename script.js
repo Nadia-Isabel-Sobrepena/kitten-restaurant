@@ -61,13 +61,13 @@ const menuData = [
     },
     {
         id: 7,
-        title: "Banana Cat Split",
+        title: "Meow Cream",
         category: "sweets",
-        price: "€15.00",
-        // Old: Caramelized banana...
-        // New: Melodramatic/Sad.
-        desc: "Melancholy. Tragic. The caramelized banana is weeping chocolate tears over a past life it cannot remember. Tastes like nostalgia and poor attachment styles.",
-        img: "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=600&q=80"
+        price: "€14.50",
+        // Old: 3AM Zoomies...
+        // New: Head empty, just vibes.
+        desc: "A scoop of tangerine sorbet that is currently buffering. It has zero thoughts behind its eyes. It doesn't know where it is. It just fell off the spoon for no reason and is purring about it.",
+        img: "https://images.unsplash.com/photo-1553531580-652231dae097?auto=format&fit=crop&w=600&q=80"
     },
     {
         id: 8,
