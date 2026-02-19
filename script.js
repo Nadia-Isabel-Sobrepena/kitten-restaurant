@@ -27,13 +27,13 @@ const menuData = [
 
     // ── STARTERS ──
     {
-    id: 10,
-    title: "Velouté Pistache",
-    category: "starters",
-    price: "€16.00",
-    desc: "A chilled pistachio velouté that arrived to the kitchen already suspicious. It does not trust the spoon. It does not trust you. It has been cross-referencing your table reservation against an internal list of perceived threats since 7 PM and will not be elaborating further.",
-    img: "https://i.pinimg.com/1200x/d7/f7/5e/d7f75e6ad06678b76483a7cb27cc5bd4.jpg"
-},
+        id: 10,
+        title: "Velouté Pistache",
+        category: "starters",
+        price: "€16.00",
+        desc: "A chilled pistachio velouté that arrived to the kitchen already suspicious. It does not trust the spoon. It does not trust you. It has been cross-referencing your table reservation against an internal list of perceived threats since 7 PM and will not be elaborating further.",
+        img: "https://i.pinimg.com/1200x/d7/f7/5e/d7f75e6ad06678b76483a7cb27cc5bd4.jpg"
+    },
     {
         id: 11,
         title: "Soupe du Regard",
@@ -103,13 +103,13 @@ const menuData = [
         img: "https://i.pinimg.com/736x/1f/65/c4/1f65c44e4fed42b4e6263b220361cbd4.jpg"
     },
     {
-    id: 13,
-    title: "Tirami-sù",
-    category: "sweets",
-    price: "€11.00",
-    desc: "Layers of espresso-soaked sponge and mascarpone developed by a contributor who refused to get out of bed for the entire month of November. Its name means 'lift me up.' It will not lift you up. It will, however, sit with you.",
-    img: "https://i.pinimg.com/1200x/c0/bd/92/c0bd92469daa62cd488bfee8da07e743.jpg"
-},
+        id: 13,
+        title: "Tirami-sù",
+        category: "sweets",
+        price: "€11.00",
+        desc: "Layers of espresso-soaked sponge and mascarpone developed by a contributor who refused to get out of bed for the entire month of November. Its name means 'lift me up.' It will not lift you up. It will, however, sit with you.",
+        img: "https://i.pinimg.com/1200x/c0/bd/92/c0bd92469daa62cd488bfee8da07e743.jpg"
+    },
 ];
 
 // ── CATEGORY DISPLAY LABELS ──
