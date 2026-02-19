@@ -27,13 +27,13 @@ const menuData = [
 
     // ── STARTERS ──
     {
-        id: 10,
-        title: "Amuse-Bouche Félin",
-        category: "starters",
-        price: "€16.00",
-        desc: "Three bites. Three personalities. The first ignores you entirely, the second demands attention aggressively, and the third disappears before you've finished forming an opinion.",
-        img: "https://i.pinimg.com/736x/91/59/6c/91596c995dfd2b7dc660ca54cf512087.jpg"
-    },
+    id: 10,
+    title: "Velouté Pistache",
+    category: "starters",
+    price: "€16.00",
+    desc: "A chilled pistachio velouté that arrived to the kitchen already suspicious. It does not trust the spoon. It does not trust you. It has been cross-referencing your table reservation against an internal list of perceived threats since 7 PM and will not be elaborating further.",
+    img: "https://i.pinimg.com/736x/91/59/6c/91596c995dfd2b7dc660ca54cf512087.jpg"
+},
     {
         id: 11,
         title: "Soupe du Regard",
