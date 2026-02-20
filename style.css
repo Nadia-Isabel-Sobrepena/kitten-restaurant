@@ -202,7 +202,6 @@ body {
     align-items: start;
 }
 
-/* Left column: image + caption */
 .founder-img-col {
     position: sticky;
     top: 8rem;
@@ -250,7 +249,6 @@ body {
     color: var(--muted);
 }
 
-/* Right column: text */
 .founder-text-col h2 {
     font-family: var(--serif);
     font-size: clamp(2.25rem, 4vw, 3.25rem);
@@ -362,17 +360,20 @@ body {
 
 .philosophy-body p:last-child { margin-bottom: 0; }
 
+/* ── PILLARS (fixed) ── */
 .philosophy-pillars {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
     gap: 0;
-    margin-top: 5rem;
+    margin-top: 3rem;
     border-top: 1px solid var(--rule);
 }
 
 .pillar {
-    padding: 2.5rem 2rem 2.5rem 0;
+    padding: 1.75rem 2rem 1.75rem 0;
     border-right: 1px solid var(--rule);
+    height: 100%;
 }
 
 .pillar:last-child { border-right: none; padding-left: 2rem; padding-right: 0; }
@@ -664,7 +665,7 @@ footer {
     .philosophy-inner { grid-template-columns: 1fr; gap: 3rem; }
     .philosophy h2 { position: static; }
     .philosophy-pillars { grid-template-columns: 1fr; }
-    .pillar { border-right: none; border-bottom: 1px solid var(--rule); padding: 1.75rem 0; }
+    .pillar { border-right: none; border-bottom: 1px solid var(--rule); padding: 1.75rem 0; height: auto; }
     .pillar:last-child { border-bottom: none; }
     .menu-section { padding: 5rem 1.5rem; }
     .callout { padding: 4rem 1.5rem; }
