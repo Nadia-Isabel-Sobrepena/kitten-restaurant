@@ -26,8 +26,8 @@ Just vanilla HTML, CSS, and JS. No frameworks, no build tools. Open `index.html`
 
 ## Notes
 
-This is a side project / design exercise. The cat pictures are sourced from Pinterest. The descriptions are written in the style of a restaurant that has never once acknowledged that its staff are, in fact, cats.
+This is a side project / design exercise. The cat pictures are sourced from Pinterest. The descriptions are written in the style of a restaurant that has never once acknowledged that its staff and are, in fact, cats.
 
 ---
 
-*Monsieur Flocon does not have a GitHub account. He has been informed of this project and responded with a single, sustained blink.*
+*Monsieur Flocon unfortunately does not have a GitHub account. He has been informed of this project and responded with a single, sustained blink.*
