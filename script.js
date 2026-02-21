@@ -91,7 +91,7 @@ const menuData = [
         title: "Scoop of Indifference",
         category: "sweets",
         price: "€14.50",
-        desc: "A classic vanilla bean sphere that simply does not care.  can call its name, wave toys at it, or plead for attention—it remains unmoved. It is the culinary equivalent of being left on 'read'.",
+        desc: "A classic vanilla bean sphere that simply does not care. You can call its name, wave toys at it, or plead for attention—it remains unmoved. It is the culinary equivalent of being left on 'read'.",
         img: "https://i.pinimg.com/736x/91/59/6c/91596c995dfd2b7dc660ca54cf512087.jpg"
     },
     {
