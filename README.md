@@ -2,7 +2,7 @@
 
 https://nadia-isabel-sobrepena.github.io/kitten-restaurant/
 
-A fake fine dining restaurant website where the entire culinary team is cats. Built as a fun side project.
+A fake fine dining restaurant website where the entire culinary team is cats. Built as a fun side project!
 
 The concept: a Michelin-starred Parisian restaurant that treats feline temperament as a legitimate culinary methodology. The founder is a cat. The menu items have personality disorders. The philosophy section is written completely straight-faced.
 
