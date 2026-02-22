@@ -658,8 +658,8 @@ footer {
     .founder-section { padding: 6rem 1.5rem; }
     .founder-inner { grid-template-columns: 1fr; gap: 3rem; }
     .founder-img-col { position: static; }
-    .founder-img-frame { aspect-ratio: 4 / 3; }
-    .founder-img { object-position: top; }
+    .founder-img-frame { aspect-ratio: unset; height: auto; }
+    .founder-img { height: auto; object-fit: contain; }
     .founder-stats { grid-template-columns: repeat(2, 1fr); }
     .philosophy { padding: 6rem 1.5rem; }
     .philosophy-inner { grid-template-columns: 1fr; gap: 3rem; }
