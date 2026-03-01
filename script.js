@@ -49,7 +49,7 @@ const menuData = [
         title: "Sashimi Neko",
         category: "mains",
         price: "€22.00",
-        desc: "Extremely lethargic. This salmon has given up on life and accepted its fate as rice. It enjoys sunbeams, doing absolutely nothing, and judging your chopstick technique.",
+        desc: "Extremely lethargic. This salmon has given up on life and accepted its fate. It enjoys sunbeams, doing absolutely nothing, and judging your chopstick technique.",
         img: "https://i.pinimg.com/736x/96/8c/37/968c37306a2daa0d505e854378678f2f.jpg"
     },
     {
