@@ -12,7 +12,7 @@ The concept: a Michelin-starred Parisian restaurant that treats feline temperame
 - `style.css` — all styling (Cormorant Garamond + DM Sans, linen tones)
 - `script.js` — menu data and filtering logic
 
-## Featuress
+## Features
 
 - Filterable menu by course (Bread & Pastry, Starters, Mains, Dessert & Café)
 - Founder section for Monsieur Flocon, Chairman
