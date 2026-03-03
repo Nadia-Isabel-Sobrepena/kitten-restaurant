@@ -65,7 +65,7 @@ const menuData = [
         title: "The Great Purrito",
         category: "mains",
         price: "€19.50",
-        desc: "Tightly swaddled. Emotionally repressed. This dish has built a thick flour tortilla wall around its heart to avoid vulnerability. It is spicy, defensive, and will bite if unwrapped.",
+        desc: "Tightly swaddled. Emotionally repressed. This dish has built a thick flour tortilla wall around its heart to avoid vulnerability. It is quite spicy, defensive, and will bite if unwrapped.",
         img: "https://i.pinimg.com/1200x/71/b2/bb/71b2bb13f4948f314cc05f15e759df46.jpg"
     },
     {
