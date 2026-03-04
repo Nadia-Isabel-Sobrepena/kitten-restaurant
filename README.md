@@ -26,7 +26,7 @@ Just vanilla HTML, CSS, and JS. No frameworks, no build tools. Open `index.html`
 
 ## Notes
 
-This is just a side project / design exercise. The cat pictures are sourced from Pinterest. The descriptions are written in the style of a restaurant that has never once acknowledged that its staff and are, in fact, cats.
+This is just a fun, silly side project / design exercise. The cat pictures are sourced from Pinterest. The descriptions are written in the style of a restaurant that has never once acknowledged that its staff and are, in fact, cats.
 
 ---
 
