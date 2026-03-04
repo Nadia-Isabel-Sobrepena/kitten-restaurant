@@ -73,7 +73,7 @@ const menuData = [
         title: "Confit de Pattes",
         category: "mains",
         price: "€26.00",
-        desc: "A slow-cooked preparation from a contributor who simply sat in the pan for forty minutes without explanation. The result is extraordinarily tender and deeply perplexing.",
+        desc: "A slow-cooked preparation from a contributor who simply sat in the pan for forty minutes without complains, nor explanation. The result is extraordinarily tender and deeply perplexing.",
         img: "https://i.pinimg.com/1200x/fd/15/f0/fd15f033242535d5bfd7edd717036499.jpg"
     },
 
