@@ -57,7 +57,7 @@ const menuData = [
         title: "The Purr-ger",
         category: "mains",
         price: "€18.50",
-        desc: "A chaotic energy. Heavily motivated by treats. The wagyu patty creates a gravitational pull of neediness. Will knock your drink over if ignored for more than 3 seconds.",
+        desc: "Chaotic energy. Heavily motivated by treats. The wagyu patty creates a gravitational pull of neediness. Will knock your drink over if ignored for more than 3 seconds.",
         img: "https://i.pinimg.com/736x/7e/9b/81/7e9b81180613a52a4b41c3a4e709cc88.jpg"
     },
     {
